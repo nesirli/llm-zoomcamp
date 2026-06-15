@@ -40,3 +40,6 @@ models/
 
 # Docker
 docker-compose.override.yml
+
+# Local index databases
+db/
