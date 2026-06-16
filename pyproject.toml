@@ -1,3 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["zoomcamp*"]
+
 [project]
 name = "llm-zoomcamp"
 version = "0.1.0"
@@ -13,4 +20,5 @@ dependencies = [
     "python-dotenv>=1.2.2",
     "requests>=2.34.2",
     "sqlitesearch>=0.1.0",
+    "toyaikit>=0.0.11",
 ]
