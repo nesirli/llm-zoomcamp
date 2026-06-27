@@ -15,7 +15,7 @@ LLM Zoomcamp teaches the engineering side of large language models: how to build
 | Module | Topic | Status |
 |--------|-------|--------|
 | 01 | [Agentic RAG](./01-agentic-rag/) | ✅ |
-| 02 | [Vector Search](./02-vector-search/) | 🔜 |
+| 02 | [Vector Search](./02-vector-search/) | ✅ |
 | 03 | [Orchestration](./03-orchestration/) | 🔜 |
 | 04 | [Evaluation](./04-evaluation/) | 🔜 |
 | 05 | [Monitoring](./05-monitoring/) | 🔜 |
