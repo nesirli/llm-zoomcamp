@@ -1050,6 +1050,7 @@ dependencies = [
     { name = "tokenizers" },
     { name = "toyaikit" },
     { name = "tqdm" },
+    { name = "wget" },
 ]
 
 [package.dev-dependencies]
@@ -1077,6 +1078,7 @@ requires-dist = [
     { name = "tokenizers", specifier = ">=0.22.2" },
     { name = "toyaikit", specifier = ">=0.0.11" },
     { name = "tqdm", specifier = ">=4.68.1" },
+    { name = "wget", specifier = ">=3.2" },
 ]
 
 [package.metadata.requires-dev]
@@ -2543,6 +2545,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/2c/41/aa4bf9664e4cda14c
 wheels = [
     { url = "https://files.pythonhosted.org/packages/34/db/b10e48aa8fff7407e67470363eac595018441cf32d5e1001567a7aeba5d2/websocket_client-1.9.0-py3-none-any.whl", hash = "sha256:af248a825037ef591efbf6ed20cc5faa03d3b47b9e5a2230a529eeee1c1fc3ef", size = 82616, upload-time = "2025-10-07T21:16:34.951Z" },
 ]
+
+[[package]]
+name = "wget"
+version = "3.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/47/6a/62e288da7bcda82b935ff0c6cfe542970f04e29c756b0e147251b2fb251f/wget-3.2.zip", hash = "sha256:35e630eca2aa50ce998b9b1a127bb26b30dfee573702782aa982f875e3f16061", size = 10857, upload-time = "2015-10-22T15:26:37.51Z" }
 
 [[package]]
 name = "widgetsnbextension"
