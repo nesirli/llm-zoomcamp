@@ -18,9 +18,8 @@ LLM Zoomcamp teaches the engineering side of large language models: how to build
 | 02 | [Vector Search](./02-vector-search/) | ✅ |
 | 03 | [Orchestration](./03-orchestration/) | ✅ |
 | 04 | [Evaluation](./04-evaluation/) | ✅ |
-| 05 | [Monitoring](./05-monitoring/) | 🔜 |
-| 06 | [Best Practices](./06-best-practices/) | 🔜 |
-| 07 | [Projects](./07-projects/) | 🔜 |
+| 05 | [Monitoring](./05-monitoring/) | ✅ |
+| 06 | [Project](./06-project/) | 🔜 |
 
 ## Repository Structure
 
@@ -28,14 +27,14 @@ LLM Zoomcamp teaches the engineering side of large language models: how to build
 llm-zoomcamp/
 ├── 01-agentic-rag/         # RAG fundamentals, agentic patterns
 ├── 02-vector-search/       # Embeddings, semantic search, PGVector
-├── 03-orchestration/       # AI orchestration and pipelines
+├── 03-orchestration/       # AI orchestration and pipelines (Prefect)
 ├── 04-evaluation/          # LLM-as-a-Judge, retrieval metrics
-├── 05-monitoring/          # Grafana dashboards, feedback loops
-├── 06-best-practices/      # Hybrid search, reranking
-└── 07-projects/            # My end-to-end RAG projects
+├── 05-monitoring/          # Postgres logging, Streamlit dashboard, Grafana
+├── 06-project/             # Final project — points to a standalone repo
+└── zoomcamp/               # Shared package (RAG helpers, ingest, eval utils) used across modules
 ```
 
-> Folders will be added as modules are completed.
+Each numbered module also has its own `notes.md` write-up and a `homework/` folder with that week's solutions. Folders will be added as modules are completed.
 
 ## Tech Stack
 
@@ -46,9 +45,9 @@ llm-zoomcamp/
 - **Monitoring:** Grafana
 - **Interface:** Streamlit / FastAPI
 
-## Projects
+## Final Project
 
-Personal RAG projects live in [`07-projects/`](./07-projects/). Each will include a searchable knowledge base, a full RAG pipeline, evaluation, a user-facing interface, and a monitoring layer.
+The course capstone, [MetaScholar](https://github.com/nesirli/metascholar), lives in its own repo rather than nested here — see [`06-project/`](./06-project/) for a pointer. It's a RAG pipeline over PubMed metagenomics literature, built with a searchable knowledge base, evaluation, a user-facing interface, and a monitoring layer.
 
 ## Official Resources
 
